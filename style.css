@@ -1,0 +1,95 @@
+/* 
+    Author: Tashley Toocaram
+    Email: tashleyvivesh@gmail.com
+    Website: https://codenametashley.github.io
+    Repository: https://github.com/CodenameTashley/codenametashley.github.io
+ */
+
+
+/* Variables */
+:root {
+    
+    --grey-background: #F4F4F4;
+    --dark-blue: #2A3A47;
+
+  }
+
+body {
+    font: 600 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: var(--grey-background);
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--dark-blue);
+}
+
+header h1 {
+    text-align: center;
+    color: var(--grey-background);
+    font-size: xx-large;
+}
+
+main {
+    height: 85vh;
+    width: 100vw;
+
+    background-color: #b9b9b9;
+    background: url('/img/jpeg/background.jpg');
+    background-repeat: repeat;
+}
+
+footer {
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    
+    color: var(--dark-blue);
+}
+
+footer span a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--dark-blue);
+}
+
+#main-description {
+    text-align: center;
+}
+
+#action-container {
+    height: 100%;
+    width: 60%;
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 50px;
+}
+
+#action-container div {
+    height: 120px;
+
+    background-color: var(--grey-background);
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#action-container div img {
+    width: 75px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
